@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Merry Christmas</title>
+    <link rel="stylesheet" href="styles1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Charm&display=swap" rel="stylesheet">
+    <audio autoplay loop id="background-music">
+        <source src="audio/background.m4a" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+</head>
+<body>
+    <button id="play-pause-button" class="play-pause-btn">
+        <img src="images/play.png" alt="Play" class="play-icon" />
+        <img src="images/pause.png" alt="Pause" class="pause-icon" style="display:none;" />
+      </button>
+      
+    <div id="floating-dots-container"></div> 
+    <header>
+        <div class="heading-container">
+            <h1 id="animated-heading">Merry Christmas</h1>
+        </div>
+    </header>
+    
+    <main>
+        <div id="verseDisplay" class="verse-display">
+        </div>
+
+        <div class="church-container">
+            <img src="images/church.png" alt="Church" class="church-image"/>
+        </div>
+        <div class="tree-container">
+            <img src="images/tree.png" alt="Church" class="tree-image"/>
+        </div>
+        
+    </main>
+    <footer>
+        <p>&copy; Milton Missionary Baptist Church</p>
+    </footer>
+    <script src="verseScript.js"></script>
+</body>
+</html>

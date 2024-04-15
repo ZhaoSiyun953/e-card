@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Christmas Card</title>
+    <link rel="stylesheet" href="styles1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <audio autoplay loop id="background-music">
+      <source src="audio/background.m4a" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    
+</head>
+<body>
+  <button id="play-pause-button" class="play-pause-btn">
+    <img src="images/play.png" alt="Play" class="play-icon" />
+    <img src="images/pause.png" alt="Pause" class="pause-icon" style="display:none;" />
+  </button>
+  
+  
+
+    <div class="star"></div>
+    <div id="floating-dots-container"></div> 
+    <div class="container">
+      <header>
+        <h1>Christ the</h1> 
+      </header>
+      <main>
+        <form id="nameForm" action="verse.html" method="GET">
+            <input type="text" id="name" name="name" placeholder="Enter your name, get your blessing" required>
+            <input type="submit" value="Get my Bible verse">
+        </form>        
+        <div id="verseDisplay"></div>
+        <div id="manger-container">
+            <img src="images/manger.png" alt="Manger Background" />
+            <img src="images/babyChrist.png" alt="Manger with Baby" class="manger-baby" />
+            <div class="halo"></div>
+        </div>
+        
+      </main>
+      <footer>
+        <p>&copy; Milton Missionary Baptist Church</p>
+      </footer>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
